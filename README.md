@@ -1,4 +1,3 @@
 ## Embedded-Firmware-Programming-I
 
-This repository contains the converted C++ code from the personal learning of the Udemy course 'Embedded Systems Bare-Metal Programming Ground Up™ (STM32)
-'.
+This repository contains my personal C++ translation of the Udemy course “Embedded Systems Bare-Metal Programming Ground Up™ (STM32)”, originally provided in C.
