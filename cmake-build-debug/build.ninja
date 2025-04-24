@@ -89,6 +89,14 @@ build CMakeFiles/NUCLEO_F411RE.dir/Core/Src/L000_Led_Toggle_Addr.cpp.obj: CXX_CO
   OBJECT_DIR = CMakeFiles\NUCLEO_F411RE.dir
   OBJECT_FILE_DIR = CMakeFiles\NUCLEO_F411RE.dir\Core\Src
 
+build CMakeFiles/NUCLEO_F411RE.dir/Core/Src/C_L000_Led_Toggle_Addr.c.obj: C_COMPILER__NUCLEO_F411RE_unscanned_Debug C$:/Users/eugen.lin/OneDrive$ -$ Legrand$ France/JetBrains/ClionProjects/NUCLEO_F411RE/Core/Src/C_L000_Led_Toggle_Addr.c || cmake_object_order_depends_target_NUCLEO_F411RE
+  DEFINES = -DSTM32F411xE
+  DEP_FILE = CMakeFiles\NUCLEO_F411RE.dir\Core\Src\C_L000_Led_Toggle_Addr.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/NUCLEO_F411RE/Core/Inc" -I"C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/NUCLEO_F411RE/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/NUCLEO_F411RE/Drivers/CMSIS/Include"
+  OBJECT_DIR = CMakeFiles\NUCLEO_F411RE.dir
+  OBJECT_FILE_DIR = CMakeFiles\NUCLEO_F411RE.dir\Core\Src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target NUCLEO_F411RE
@@ -97,7 +105,7 @@ build CMakeFiles/NUCLEO_F411RE.dir/Core/Src/L000_Led_Toggle_Addr.cpp.obj: CXX_CO
 #############################################
 # Link the executable NUCLEO_F411RE.elf
 
-build NUCLEO_F411RE.elf: CXX_EXECUTABLE_LINKER__NUCLEO_F411RE_Debug CMakeFiles/NUCLEO_F411RE.dir/Core/Src/main.cpp.obj CMakeFiles/NUCLEO_F411RE.dir/Core/Src/system_stm32f4xx.c.obj CMakeFiles/NUCLEO_F411RE.dir/Core/Src/crt_stubs.c.obj CMakeFiles/NUCLEO_F411RE.dir/startup_stm32f411xe.s.obj CMakeFiles/NUCLEO_F411RE.dir/Core/Src/L000_Led_Toggle_Addr.cpp.obj
+build NUCLEO_F411RE.elf: CXX_EXECUTABLE_LINKER__NUCLEO_F411RE_Debug CMakeFiles/NUCLEO_F411RE.dir/Core/Src/main.cpp.obj CMakeFiles/NUCLEO_F411RE.dir/Core/Src/system_stm32f4xx.c.obj CMakeFiles/NUCLEO_F411RE.dir/Core/Src/crt_stubs.c.obj CMakeFiles/NUCLEO_F411RE.dir/startup_stm32f411xe.s.obj CMakeFiles/NUCLEO_F411RE.dir/Core/Src/L000_Led_Toggle_Addr.cpp.obj CMakeFiles/NUCLEO_F411RE.dir/Core/Src/C_L000_Led_Toggle_Addr.c.obj
   FLAGS = -fno-exceptions -fno-rtti -fno-use-cxa-atexit -g
   LINK_FLAGS = "-TC:/Users/eugen.lin/OneDrive - Legrand France/JetBrains/ClionProjects/NUCLEO_F411RE/STM32F411XX_FLASH.ld" -nostartfiles -nostdlib --specs=nosys.specs --specs=nano.specs -Wl,--gc-sections -Wl,-Map=NUCLEO_F411RE.map
   OBJECT_DIR = CMakeFiles\NUCLEO_F411RE.dir
