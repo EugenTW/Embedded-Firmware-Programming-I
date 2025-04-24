@@ -27,7 +27,7 @@ inline volatile uint32_t& GPIOA_MODER  = *reinterpret_cast<volatile uint32_t*>(G
 inline volatile uint32_t& GPIOA_ODR    = *reinterpret_cast<volatile uint32_t*>(GPIOA_BASE + ODR_OFFSET);
 
 
-void L000_Led_Toggle_addr() {
+void L004_Led_Toggle_addr() {
     // 1. Enable clock access to GPIOA
     RCC_AHB1ENR |= GPIOAEN;
 

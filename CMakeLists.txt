@@ -33,8 +33,8 @@ add_executable(${PROJECT_NAME}
         Core/Src/system_stm32f4xx.c
         Core/Src/crt_stubs.c
         startup_stm32f411xe.s
-        Core/Src/L000_Led_Toggle_Addr.cpp
-        Core/Src/C_L000_Led_Toggle_Addr.c
+        Core/Src/L004_Led_Toggle_Addr.cpp
+        Core/Src/C_L004_Led_Toggle_Addr.c
 )
 
 # 6️⃣ 產出 .elf、不讓 CMake 自動加 Windows flag
